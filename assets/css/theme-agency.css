@@ -1,0 +1,23 @@
+/*----------------------------------------------
+	VARIABLE OVERIDE FOR THEME
+---------------------------------------------*/
+:root {
+  /* Main Color */
+  --color_main: #1660B4;
+  --color_main-b: #F1F6FF; 
+  /* --color_main-b: #ECEDEE;  */
+}
+
+.p_login__logo,
+.p_table-prodreg ul li button::before,
+.p_table-prodreg .prod-class .image::before,
+.p_table-proddesc .discount:before,
+.p_home__box img,
+.c_btn-icon.add,
+.c_btn-icon.downloaded,
+.c_btn-more::after,
+.c_btn.w-icon-right:hover:after,
+.w-icon-right.send:hover:after { filter: invert(18%) sepia(55%) saturate(1921%) hue-rotate(204deg) brightness(85%) contrast(81%); }
+
+.c_btn.primary.w-icon:hover::before { filter: invert(24%) sepia(34%) saturate(5960%) hue-rotate(202deg) brightness(88%) contrast(83%); }
+.c_btn.primary.w-icon.cursor:hover::before{ filter: invert(40%) sepia(69%) saturate(5960%) hue-rotate(191deg) brightness(77%) contrast(83%); }

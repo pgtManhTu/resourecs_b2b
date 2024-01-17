@@ -1,0 +1,53 @@
+/*----------------------------------------------
+	VARIABLES
+---------------------------------------------*/
+:root {
+
+  /* font-family */
+  --ff_sans: "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+
+  /* Heading Font size */
+  --fs_hdng1: 48px;
+  --fs_hdng2: 40px;
+  --fs_hdng3: 32px;
+
+  /* Body Font size */
+  --fs_small: 12px;
+  --fs_base: 14px;
+  --fs_large: 16px;
+  --fs_xl: 18px;
+  --fs_xxl: 20px;
+  --fs_xxxl: 24px;
+
+  /* Line height */
+  --lh_base: 1.2;
+
+  /* Main Color */
+  --color_main: #EF7D35;
+  --color_main-b: #FFF0DC; 
+  --color_main-c: #F0F5FF;
+
+  /* Alert & Status */
+  --color_succ: #2BCE6E; 
+  --color_succ2: #9333EA; 
+  --color_warn: #FFB320; 
+  --color_error: #EC2828;
+  --color_info: #4773DC; 
+  --color_light-a: #ECF4EE;
+  --color_light-b: #FFF4F4;
+  --color_light-c: #F8EBFF;
+  --color_light-d: #FEFDDF;
+
+  /* Grayscale */
+  --color_gray90: #141516;
+  --color_gray80: #454647;
+  --color_gray70: #727478;
+  --color_gray60: #8C9299;
+  --color_gray50: #CACACA;
+  --color_gray40: #DFDFDF;
+  --color_gray30: #ECEDEE;
+  --color_gray20: #F4F4F4;
+  --color_gray10: #FAFAFA;
+  --color_black: #000000;
+  --color_white: #ffffff;
+}
