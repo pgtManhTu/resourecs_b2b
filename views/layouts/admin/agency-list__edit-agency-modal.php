@@ -32,11 +32,11 @@
 							<div class="item">
 								<div class="c_select">
 									<select id="" name="" form="">
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
 									</select>
 								</div>
 							</div>
@@ -88,44 +88,44 @@
 
 					<?php include('_table-agency-list.php'); ?>
 
-					<!-- Edit User -->
+					<!-- Add User -->
 					<div class="p_modal show">
 						<form class="p_modal__form">
-							<h4 class="c_hdng3 p_modal__ttl">代理店の編集</h4>
+							<h4 class="c_hdng3 p_modal__ttl">代理店の追加</h4>
 							<button class="c_btn-icon close"></button>
 							<div class="p_modal__scroll c_scrollbar">
 								<div class="inner">
 									<div class="item">
 										<label for="">法人ID</label>
-										<input type="text" name="" value="243535">
+										<input type="text" name="">
 									</div>
 									<div class="item">
 										<label for="">会社名</label>
-										<input type="text" name="" value="MIN株式会社">
+										<input type="text" name="">
 									</div>
 									<div class="item">
 										<label for="">ふりがな</label>
-										<input type="text" id="" name="" value="MIN株式会社">
+										<input type="text" id="" name="">
 									</div>
 									<div class="item">
 										<label for="">インボイス番号</label>
-										<input type="text" name="" value="435464646">
+										<input type="text" name="">
 									</div>
 									<div class="item">
 										<label for="">郵便番号</label>
-										<input type="text" name="" value="1635738">
+										<input type="text" name="">
 									</div>
 									<div class="item">
 										<label for="">住所</label>
-										<input type="text" name="" value="大阪市北区豊崎">
+										<input type="text" name="">
 									</div>
 									<div class="item">
 										<label for="">電話都号</label>
-										<input type="text" name="" value="06-1234-1234">
+										<input type="text" name="">
 									</div>
 									<div class="item">
 										<label for="">FAX据号</label>
-										<input type="text" name="" value="0612341234">
+										<input type="text" name="">
 									</div>
 									<div class="item full">
 										<label for="">業界名</label>
@@ -150,7 +150,7 @@
 							</div>
 							<div class="p_modal__btns">
 								<button class="c_btn c_btn-active secondary">キャンセル</button>
-								<button class="c_btn c_btn-active primary">更新する</button>
+								<button class="c_btn c_btn-active primary">新規作成</button>
 							</div>
 						</form>
 					</div>

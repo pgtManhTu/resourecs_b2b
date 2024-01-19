@@ -41,7 +41,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="item w-sidelabel">
+							<div class="item w-sidelabel c_sp-placehlder">
 								<label for="">が</label>
 								<input type="text" id="" name="" placeholder="店舗コード">
 							</div>

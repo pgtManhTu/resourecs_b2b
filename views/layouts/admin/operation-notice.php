@@ -35,54 +35,62 @@
             <div class="p_tabs">
               <ul class="p_tabs__btns">
                 <li><a href="#user">ユーザー一覧</a></li>
-                <li><a href="#list_announcement" class="current">お知らせ一覧</a></li>
-                <li><a href="#create_announcement">お知らせ作成</a></li>
+                <li><a href="#list_announcement">お知らせ一覧</a></li>
+                <li><a href="#create_announcement" class="current">お知らせ作成</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
 
-              <div id="user" class="p_tabs__content">
-                <div class="p_tabs__content-details">
-                  <div class="p_form-ulist__upper">
-                    <div class="item">
-                      <h2 class="p_form-ulist__ttl">タイトル</h2>
-                    </div>
-                    <div class="item">
-                      <h2 class="p_form-ulist__ttl">公開期間：</h2>
-                    </div>
-                    <div class="item">
-                      <h2 class="p_form-ulist__ttl">公開期間：</h2>
-                    </div>
-                    <div class="item">
-                      <h2 class="p_form-ulist__ttl">表示/非表示</h2>
+              <div id="" class="p_tabs__content">
+                <div class="p_tabs__content-details p_table-oms2">
+
+                  <div class="c_table c_table-inputs">
+                    <div class="c_table__scroll c_scrollbar">
+                      <table class="c_table__inner">
+                        <tbody>
+                          <tr>
+                              <th>タイトル</th>
+                              <th>公開期間：</th>
+                              <th>公開期間：</th>
+                              <th>表示/非表示</th>
+                          </tr>
+                          <tr>
+                              <td class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                                <div>新機能のお知らせ</div>
+                                <small class="arrow"></small>
+                                </td>
+                              <td data-label="タイトル">
+                                <div><input type="text" name="" value="新機能のお知らせ"></div>
+                              </td>
+                              <td data-label="公開期間">
+                                <div><input type="text" name="" value="2023/10/10 10:00"></div>
+                              </td>
+                              <td data-label="公開期間">
+                                <div><input type="text" name="" value="2023/12/10 23:59"></div>
+                              </td>
+                              <td data-label="表示/非表示" class="p_table-oms2__spec">
+                                <div>
+                                  <div class="c_select">
+                                    <select id="" name="" form="">
+                                      <option value="">表示</option>
+                                      <option value="">非表示</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </td>
+                              <td class="p_table-oms2__txtarea">
+                                <div class="p_form-ulist p_w-med">
+                                  <div class="item">
+                                    <label for="text">本文</label>
+                                    <textarea name="text" id="" ></textarea>
+                                  </div>
+                                </div>
+                              </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
-                  <div class="p_form-ulist p_w-input">
-                    <div class="item">
-                      <input type="text" id="" name="" value="新機能のお知らせ">
-                    </div>
-                    <div class="item w-icon">
-                      <input type="date" id="" name="">
-                      <i class="calendar"></i>
-                    </div>
-                    <div class="item w-icon">
-                      <input type="date" id="" name="">
-                      <i class="calendar"></i>
-                    </div>
-                    <div class="item">
-                      <div class="c_select">
-                        <select id="" name="" form="">
-                          <option value="">表示</option>
-                          <option value="">有効</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="p_form-ulist p_w-med">
-                    <div class="item">
-                      <label for="text">本文</label>
-                      <textarea name="text" id="" cols="30" rows="10"></textarea>
-                    </div>
-                  </div>
+
                   <div class="c_txt-right">
                     <button class="c_btn c_btn-active default p_tabs_btn-update c_mr-10">戻る</button>
                     <button class="c_btn c_btn-active primary p_tabs_btn-update">更新する</button>

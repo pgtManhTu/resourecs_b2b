@@ -9,17 +9,18 @@
 			<?php include('elements/sidebar.php'); ?>
 
 			<main class="l_main">
-        <?php include('elements/header-acess.php'); ?>
+				<?php include('elements/header-acess.php'); ?>
 				<?php include('elements/header.php'); ?>
 
 				<div class="p_main-content">
 
 					<div class="p_main-content__hdng">
 						<div class="left">
-							<h2 class="c_hdng3">顧客新規作成 (1-1)</h2>
+							<h2 class="c_hdng3">顧客詳細 (2-2)</h2>
 							<ul class="c_breadcrumb">
 								<li><a href="">顧客管理画面</a></li>
-								<li class="current">顧客新規作成</li>
+								<li><a href="">顧客一覧</a></li>
+								<li class="current">顧客詳細</li>
 							</ul>
 						</div>
 						<div class="right">
@@ -65,29 +66,7 @@
 							</div>
 						</div>
 						<div class="p_form-clist__lower">
-							<div class="item">
-								<span class="label">法人名</span>
-								<div class="c_select">
-									<select id="" name="" form="">
-										<option value="">選択して下さい</option>
-										<option value="">選択して下さい</option>
-										<option value="">選択して下さい</option>
-									</select>
-								</div>
-								<input type="text" id="" name="" placeholder="法人名">
-							</div>
-							<div class="item">
-								<span class="label">部署名</span>
-								<div class="c_select">
-									<select id="" name="" form="">
-										<option value="">選択して下さい</option>
-										<option value="">選択して下さい</option>
-										<option value="">選択して下さい</option>
-									</select>
-								</div>
-								<input type="text" id="" name="" placeholder="部署名">
-							</div>
-							<div class="btns">
+							<div class="p_btns-center">
 								<button class="c_btn c_btn-active secondary">ダウンロード</button>
 								<button class="c_btn c_btn-active primary w-icon search">検索</button>
 							</div>

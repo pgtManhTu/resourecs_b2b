@@ -181,8 +181,8 @@
 													<th class="hdng_center" data-label="販売店追加">販売店追加</th>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>1</div></td>
-													<td data-label="会社名"><div>A株式会社</div></td>
+													<td class="pc-only"><div>1</div></td>
+													<td class="c_table__ttl-sp open"><div>A株式会社</div><small class="arrow"></small></td>
 													<td data-label="部署名"><div>M営業所</div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -196,8 +196,8 @@
 													</td>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>2</div></td>
-													<td data-label="会社名"><div>株式会社B</div></td>
+													<td class="pc-only"><div>2</div></td>
+													<td class="c_table__ttl-sp open"><div>株式会社B</div><small class="arrow"></small></td>
 													<td data-label="部署名"><div>N営業所</div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -211,8 +211,8 @@
 													</td>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>3</div></td>
-													<td data-label="会社名"><div>D有限会社</div></td>
+													<td class="pc-only"><div>3</div></td>
+													<td class="c_table__ttl-sp"><div>D有限会社</div><small class="arrow"></small></td>
 													<td data-label="部署名"><div>P営業所</div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -226,8 +226,8 @@
 													</td>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>4</div></td>
-													<td data-label="会社名"><div>サービス</div></td>
+													<td class="pc-only"><div>4</div></td>
+													<td class="c_table__ttl-sp"><div>サービス</div><small class="arrow"></small></td>
 													<td data-label="部署名"><div></div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -241,8 +241,8 @@
 													</td>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>5</div></td>
-													<td data-label="会社名"><div>リホールディングス</div></td>
+													<td class="pc-only"><div>5</div></td>
+													<td class="c_table__ttl-sp"><div>リホールディングス</div><small class="arrow"></small></td>
 													<td data-label="部署名"><div>乙支店</div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -256,8 +256,8 @@
 													</td>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>6</div></td>
-													<td data-label="会社名"><div>K物流</div></td>
+													<td class="pc-only"><div>6</div></td>
+													<td class="c_table__ttl-sp"><div>K物流</div><small class="arrow"></small></td>
 													<td data-label="部署名"><div></div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>

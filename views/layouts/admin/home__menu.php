@@ -5,7 +5,7 @@
 
 <body>
   <div class="clearfix">
-    <div class="f_main-area f_main-home show"><!-- just add the class "show" to show the sidebar menu -->
+    <div class="f_main-area f_main-home"><!-- just add the class "show" to show the sidebar menu -->
       <?php include('elements/sidebar.php'); ?>
 
       <main class="l_main">
@@ -13,12 +13,11 @@
 
         <div class="p_home">
           <div class="p_home__cont">
-            <div class="p_home__notif"><!-- remove/add class "show" here to hide/show the notification section -->
+            <div class="p_home__notif">
               <div class="p_notif">
                 <div class="p_notif__hdng">
                   <div>
-                    <button class="c_btn-icon arrow-left sp-only p_notif__backbtn"></button>
-                    <h4 class="p_notif__ttl">未確認のお知らせ<small class="c_notif-side pc-only">2</small></h4>
+                    <h4 class="p_notif__ttl">問合せ<small class="c_notif-side pc-only">2</small></h4>
                     <button class="c_btn-icon reorder p_notif__reorder pc-only"></button>
                   </div>
                   <div>

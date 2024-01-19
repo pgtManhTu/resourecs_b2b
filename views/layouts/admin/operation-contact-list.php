@@ -46,6 +46,10 @@
                 </div>
               </div>
 
+              <div class="c_txt-right">
+                <button class="c_btn c_btn-active primary p_tabs_btn-update">更新する</button>
+              </div>
+
               <!-- 
 									<div id="list_user" class="p_tabs__content"></div>
 									<div id="list_announcement" class="p_tabs__content"></div>

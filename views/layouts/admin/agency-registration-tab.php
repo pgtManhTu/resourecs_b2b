@@ -41,7 +41,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="item w-sidelabel">
+							<div class="item w-sidelabel c_sp-placehlder">
 								<label for="">が</label>
 								<input type="text" id="" name="" placeholder="店舗コード">
 							</div>
@@ -115,9 +115,9 @@
 													</select>
 												</div>
 											</div>
-											<div class="item w-sidelabel">
+											<div class="item w-sidelabel c_sp-placehlder">
 												<label for="">が</label>
-												<input type="text" id="" name="">
+												<input type="text" id="" name="" placeholder="が">
 											</div>
 											<div class="item">
 												<div class="c_select">
@@ -172,8 +172,11 @@
 													<th>販売店追加</th>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>1</div></td>
-													<td data-label="販売店名"><div>A株式会社</div></td>
+													<td class="pc-only"><div>1</div></td>
+													<td class="c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+														<div>A株式会社</div>
+														<small class="arrow"></small>
+													</td>
 													<td data-label="業界名"><div>ファッション</div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -187,8 +190,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>2</div></td>
-													<td data-label="販売店名"><div>株式会社B</div></td>
+													<td class="pc-only"><div>2</div></td>
+													<td class="c_table__ttl-sp open">
+														<div>株式会社B</div>
+														<small class="arrow"></small>
+													</td>
 													<td data-label="業界名"><div>家庭用電化製品</div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -202,8 +208,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>3</div></td>
-													<td data-label="販売店名"><div>D有限会社</div></td>
+													<td class="pc-only"><div>3</div></td>
+													<td class="c_table__ttl-sp">
+														<div>D有限会社</div>
+														<small class="arrow"></small>
+													</td>
 													<td data-label="業界名"><div>飲食店</div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -217,8 +226,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>4</div></td>
-													<td data-label="販売店名"><div>サービス</div></td>
+													<td class="pc-only"><div>4</div></td>
+													<td class="c_table__ttl-sp">
+														<div>サービス</div>
+														<small class="arrow"></small>
+													</td>
 													<td data-label="業界名"><div></div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -232,8 +244,11 @@
 													</td>
 												</tr>
 													<tr>
-													<td data-label="番号順"><div>5</div></td>
-													<td data-label="販売店名"><div>リホールディングス</div></td>
+													<td class="pc-only"><div>5</div></td>
+													<td class="c_table__ttl-sp">
+														<div>リホールディングス</div>
+														<small class="arrow"></small>
+													</td>
 													<td data-label="業界名"><div>建設業</div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>
@@ -247,8 +262,11 @@
 													</td>
 												</tr>
 												<tr>
-													<td data-label="番号順"><div>6</div></td>
-													<td data-label="販売店名"><div>MIN株式会社</div></td>
+													<td class="pc-only"><div>6</div></td>
+													<td class="c_table__ttl-sp">
+														<div>MIN株式会社</div>
+														<small class="arrow"></small>
+													</td>
 													<td data-label="業界名"><div></div></td>
 													<td data-label="住所"><div></div></td>
 													<td data-label="電話番号"><div></div></td>

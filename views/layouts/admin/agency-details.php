@@ -33,15 +33,15 @@
 							<div class="item">
 								<div class="c_select">
 									<select id="" name="" form="">
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
 									</select>
 								</div>
 							</div>
-							<div class="item w-sidelabel">
+							<div class="item w-sidelabel c_sp-placehlder">
 								<label for="">が</label>
 								<input type="text" id="" name="" placeholder="店舗コード">
 							</div>

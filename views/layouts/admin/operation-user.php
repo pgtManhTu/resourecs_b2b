@@ -42,102 +42,129 @@
 
               <div id="list_user" class="p_tabs__content">
                 <div class="p_tabs__content-details">
-                  <div class="p_form-ulist__upper">
-                    <div class="item">
-                      <h2 class="p_form-ulist__ttl">ユーザー名</h2>
-                    </div>
-                    <div class="item">
-                      <h2 class="p_form-ulist__ttl">メールアドレス</h2>
-                    </div>
-                    <div class="item">
-                      <h2 class="p_form-ulist__ttl">権限</h2>
-                    </div>
-                    <div class="item">
-                      <h2 class="p_form-ulist__ttl">アカウント</h2>
+
+                  <div class="c_table c_table-inputs">
+                    <div class="c_table__scroll c_scrollbar">
+                      <table class="c_table__inner">
+                        <tbody>
+                          <tr>
+                              <th>ユーザー名</th>
+                              <th>メールアドレス</th>
+                              <th>パスワード</th>
+                              <th>権限</th>
+                              <th>アカウント</th>
+                          </tr>
+                          <tr>
+                              <td class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                                <div>山田 太朗</div>
+                                <small class="arrow"></small>
+                              </td>
+                              <td data-label="ユーザー名"><div><input type="text" id="" name="" placeholder="" value="山田 太朗"></div></td>
+                              <td data-label="メールアドレス"><div><input type="email" id="" name="" placeholder="" value="kanri@gmail.com"></div></div></td>
+                              <td data-label="パスワード">
+                                <div class="item w-icon">
+                                  <input type="text" name="" value="*********">
+                                  <i class="eye-off"></i>
+                                </div>
+                              </td>
+                              <td data-label="権限">
+                                <div>
+                                  <div class="c_select">
+                                    <select id="" name="" form="">
+                                      <option value="">管理者</option>
+                                      <option value="">一般</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </td>
+                              <td data-label="アカウント">
+                                <div>
+                                  <div class="c_select">
+                                    <select id="" name="" form="">
+                                      <option value="">有効</option>
+                                      <option value="">有効</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                                <div>中山 二郎</div>
+                                <small class="arrow"></small>
+                              </td>
+                              <td data-label="ユーザー名"><div><input type="text" id="" name="" placeholder="" value="中山 二郎"></div></td>
+                              <td data-label="メールアドレス"><div><input type="email" id="" name="" placeholder="" value="soumu@gmail.com"></div></div></td>
+                              <td data-label="パスワード">
+                                <div class="item w-icon">
+                                  <input type="text" name="" value="*********">
+                                  <i class="eye-off"></i>
+                                </div>
+                              </td>
+                              <td data-label="権限">
+                                <div>
+                                  <div class="c_select">
+                                    <select id="" name="" form="">
+                                      <option value="">一般</option>
+                                      <option value="">管理者</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </td>
+                              <td data-label="アカウント">
+                                <div>
+                                  <div class="c_select">
+                                    <select id="" name="" form="">
+                                      <option value="">有効</option>
+                                      <option value="">有効</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </td>
+                          </tr>
+                          <tr>
+                              <td class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                                <div>中山 二郎</div>
+                                <small class="arrow"></small>
+                              </td>
+                              <td data-label="ユーザー名"><div><input type="text" id="" name="" placeholder="" value="中山 二郎"></div></td>
+                              <td data-label="メールアドレス"><div><input type="email" id="" name="" placeholder="" value="soumu@gmail.com"></div></div></td>
+                              <td data-label="パスワード">
+                                <div class="item w-icon">
+                                  <input type="text" name="" value="*********">
+                                  <i class="eye-off"></i>
+                                </div>
+                              </td>
+                              <td data-label="権限">
+                                <div>
+                                  <div class="c_select">
+                                    <select id="" name="" form="">
+                                      <option value="">一般</option>
+                                      <option value="">管理者</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </td>
+                              <td data-label="アカウント">
+                                <div>
+                                  <div class="c_select">
+                                    <select id="" name="" form="">
+                                      <option value="">有効</option>
+                                      <option value="">有効</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
-                  <div class="p_form-ulist p_w-input">
-                    <div class="item">
-                      <input type="text" id="" name="" value="山田　太朗"></input>
-                    </div>
-                    <div class="item">
-                      <input type="text" id="" name="" value="kanri@gmail.com"></input>
-                    </div>
-                    <div class="item">
-                      <div class="c_select">
-                        <select id="" name="" form="">
-                          <option value="">管理者</option>
-                          <option value="">管理者</option>
-                          <option value="">管理者</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="c_select">
-                        <select id="" name="" form="">
-                          <option value="">有効</option>
-                          <option value="">有効</option>
-                          <option value="">有効</option>
-                        </select>
-                      </div>
-                    </div>
+
+                  <button class="c_btn c_btn-active primary p_table-inputs__btn-add">アカウントを追加する</button>
+                  <div class="c_txt-right pad-right c_table-inputs__btn-up">
+                    <button class="c_btn c_btn-active primary">更新する</button>
                   </div>
-                  <div class="p_form-ulist p_w-input">
-                    <div class="item">
-                      <input type="text" id="" name="" value="山田　太朗"></input>
-                    </div>
-                    <div class="item">
-                      <input type="text" id="" name="" value="soumu@gmail.com"></input>
-                    </div>
-                    <div class="item">
-                      <div class="c_select">
-                        <select id="" name="" form="">
-                          <option value="">一般</option>
-                          <option value="">一般</option>
-                          <option value="">一般</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="c_select">
-                        <select id="" name="" form="">
-                          <option value="">有効</option>
-                          <option value="">有効</option>
-                          <option value="">有効</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="p_form-ulist p_w-input">
-                    <div class="item">
-                      <input type="text" id="" name="" value="山田　太朗"></input>
-                    </div>
-                    <div class="item">
-                      <input type="text" id="" name="" value="soumu@gmail.com"></input>
-                    </div>
-                    <div class="item">
-                      <div class="c_select">
-                        <select id="" name="" form="">
-                          <option value="">一般</option>
-                          <option value="">一般</option>
-                          <option value="">一般</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="item">
-                      <div class="c_select">
-                        <select id="" name="" form="">
-                          <option value="">有効</option>
-                          <option value="">有効</option>
-                          <option value="">有効</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="p_form-ulist--left">
-                    <button class="c_btn c_btn-active primary">アカウントを追加する</button>
-                  </div>
-                  <div class="c_txt-right"><button class="c_btn c_btn-active primary p_tabs_btn-update">更新する</button></div>
                 </div>
               </div>
 

@@ -32,15 +32,15 @@
 							<div class="item">
 								<div class="c_select">
 									<select id="" name="" form="">
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
-										<option value="">ユーザID</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
+										<option value="">検索フィールドを選択してください</option>
 									</select>
 								</div>
 							</div>
-							<div class="item w-sidelabel">
+							<div class="item w-sidelabel c_sp-placehlder">
 								<label for="">が</label>
 								<input type="text" id="" name="" placeholder="店舗コード">
 							</div>
@@ -56,29 +56,7 @@
 							</div>
 						</div>
 						<div class="p_form-clist__lower">
-							<div class="item">
-								<span class="label">販売店名</span>
-								<div class="c_select">
-									<select id="" name="" form="">
-										<option value="">ABC株式会社</option>
-										<option value="">ABC株式会社</option>
-										<option value="">ABC株式会社</option>
-									</select>
-								</div>
-								<input type="text" id="" name="" placeholder="販売店名">
-							</div>
-							<div class="item">
-								<span class="label">業界名</span>
-								<div class="c_select">
-									<select id="" name="" form="">
-										<option value="">選択して下さい</option>
-										<option value="">選択して下さい</option>
-										<option value="">選択して下さい</option>
-									</select>
-								</div>
-								<input type="text" id="" name="" placeholder="業界名">
-							</div>
-							<div class="btns">
+							<div class="p_btns-center">
 								<button class="c_btn c_btn-active secondary">ダウンロード</button>
 								<button class="c_btn c_btn-active primary w-icon search">検索</button>
 							</div>

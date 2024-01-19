@@ -42,8 +42,8 @@
 
               <div id="list_user" class="p_tabs__content">
                 <div class="p_tabs__content-details">
-                  <div class="c_table p_table-notice">
-                    <div class="c_table-list c_table-list secondary">
+                  <div class="c_table p_table-oms">
+                    <div class="c_table-list secondary c_scrollbar">
                       <table class="c_table-list__inner">
                         <tbody>
                           <tr class="row title">
@@ -55,22 +55,26 @@
                             <th>編集</th>
                           </tr>
                           <tr>
-                            <td>10/10</td>
-                            <td>新機能のお知らせ</td>
-                            <td>10/10 13:00 ~ <br>
-                              12/10:23:59</td>
-                            <td>顧客</td>
-                            <td>表示</td>
-                            <td><a href="">編集</a></td>
+                              <td class="c_table__ttl-sp open">
+                                <div>10/10</div>
+                                <small class="arrow"></small>
+                              </td>
+                              <td data-label="お知らせタイトル" class="c_hlight"><div>新機能のお知らせ</div></td>
+                              <td data-label="公開期間"><div>10/10 13:00 ~ <br>12/10:23:59</div></td>
+                              <td data-label="公開範囲"><div>顧客</div></td>
+                              <td data-label="表示/非表示"><div>表示</div></td>
+                              <td data-label="編集"><div><a href="">編集</a></div></td>
                           </tr>
                           <tr>
-                            <td>9/10</td>
-                            <td>メンテナンスのお知<br>らせ</td>
-                            <td>9/10 13:00 ~ <br>
-                              9/10:23:59</td>
-                            <td>全体</td>
-                            <td>全体</td>
-                            <td><a href="">編集</a></td>
+                              <td class="c_table__ttl-sp open">
+                                <div>9/10</div>
+                                <small class="arrow"></small>
+                              </td>
+                              <td data-label="お知らせタイトル" class="c_hlight"><div>メンテナンスのお知らせ</div></td>
+                              <td data-label="公開期間"><div>9/10 13:00 ~ <br>9/10:23:59</div></td>
+                              <td data-label="公開範囲"><div>全体</div></td>
+                              <td data-label="表示/非表示"><div>全体</div></td>
+                              <td data-label="編集"><div><a href="">編集</a></div></td>
                           </tr>
                         </tbody>
                       </table>
