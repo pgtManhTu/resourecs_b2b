@@ -33,20 +33,20 @@
                 <th>内容</th>
               </tr>
               <tr>
-                <td>問合せNo</td>
-                <td>0002</td>
+                <td data-label="項目"><div>問合せNo</div></td>
+                <td data-label="内容"><div>0002</div></td>
               </tr>
               <tr>
-                <td>日付</td>
-                <td>2023/10/10</td>
+                <td data-label="項目"><div>日付</div></td>
+                <td data-label="内容"><div>2023/10/10</div></td>
               </tr>
               <tr>
-                <td>タイトル</td>
-                <td>商品の仕様についての質問</td>
+                <td data-label="項目"><div>タイトル</div></td>
+                <td data-label="内容"><div>商品の仕様についての質問</div></td>
               </tr>
               <tr>
-                <td>本文</td>
-                <td>コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ コンテンツコンテンツコンテンツコンテンツコンテンツ</td>
+                <td data-label="項目"><div>本文</div></td>
+                <td data-label="内容"><div>コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ コンテンツコンテンツコンテンツコンテンツコンテンツ</div></td>
               </tr>
             </table>
           </div><!-- end of c_table-wide -->
@@ -60,12 +60,12 @@
                 <td>2023/10/12</td>
               </tr>
               <tr>
-                <td>本文</td>
-                <td>コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ コンテンツコンテンツコンテンツコンテンツコンテンツ</td>
+                <td data-label="日付"><div>本文</div></td>
+                <td data-label="内容"><div>コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ コンテンツコンテンツコンテンツコンテンツコンテンツ</div></td>
               </tr>
               <tr>
-                <td>回答者</td>
-                <td>山田 太朗</td>
+                <td data-label="日付"><div>回答者</div></td>
+                <td data-label="内容"><div>山田 太朗</div></td>
               </tr>
             </table><!-- end of inner -->
           </div>

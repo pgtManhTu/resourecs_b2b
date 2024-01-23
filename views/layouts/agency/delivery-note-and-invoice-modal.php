@@ -42,34 +42,34 @@
                 <th>詳細</th>
               </tr>
               <tr>
-                <td rowspan="2" class="c_txt-center">0002（見積）</td>
-                <td>マスク</td>
-                <td>AB-001</td>
-                <td>2</td>
-                <td>大阪大学</td>
-                <td><a href="">納品書 * 請求書</a></td>
+                <td data-label="注文" rowspan="2" class="c_txt-center"><div>0002（見積）</div></td>
+                <td data-label="商品名"><div>マスク</div></td>
+                <td data-label="型番"><div>AB-001</div></td>
+                <td data-label="数量"><div>2</div></td>
+                <td data-label="発注先"><div>大阪大学</div></td>
+                <td data-label="詳細"><div><a href="">納品書 * 請求書</a></div></td>
               </tr>
               <tr>
-                <td>手袋</td>
-                <td>B-XYZ002</td>
-                <td>3</td>
-                <td>大阪大学</td>
-                <td><a href="">納品書 * 請求書</a></td>
+                <td data-label="商品名"><div>手袋</div></td>
+                <td data-label="型番"><div>B-XYZ002</div></td>
+                <td data-label="数量"><div>3</div></td>
+                <td data-label="発注先"><div>大阪大学</div></td>
+                <td data-label="詳細"><div><a href="">納品書 * 請求書</a></div></td>
               </tr>
               <tr>
-                <td rowspan="2" class="c_txt-center">0001（カタログ）</td>
-                <td>検査キット</td>
-                <td>B-A001</td>
-                <td>1</td>
-                <td>大阪大学</td>
-                <td><a href="">納品書 * 請求書</a></td>
+                <td data-label="注文" rowspan="2" class="c_txt-center"><div>0001（カタログ）</div></td>
+                <td data-label="商品名"><div>検査キット</div></td>
+                <td data-label="型番"><div>B-A001</div></td>
+                <td data-label="数量"><div>1</div></td>
+                <td data-label="発注先"><div>大阪大学</div></td>
+                <td data-label="詳細"><div><a href="">納品書 * 請求書</a></div></td>
               </tr>
               <tr>
-                <td>試験紙</td>
-                <td>X-001</td>
-                <td>1</td>
-                <td>大阪大学</td>
-                <td><a href="">納品書 * 請求書</a></td>
+                <td data-label="商品名"><div>試験紙</div></td>
+                <td data-label="型番"><div>X-001</div></td>
+                <td data-label="数量"><div>1</div></td>
+                <td data-label="発注先"><div>大阪大学</div></td>
+                <td data-label="詳細"><div><a href="">納品書 * 請求書</a></div></td>
               </tr>
             </table><!-- end of inner -->
           </div><!-- end of c_table -->

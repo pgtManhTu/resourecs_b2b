@@ -26,48 +26,60 @@
           </div>
 
           <!-- start of c_table-wide -->
-          <div class="c_table-wide p_request-details">
-            <table class="c_table-wide__inner">
-              <tr>
-                <th>項目</th>
-                <th>内容</th>
-              </tr>
-              <tr>
-                <td>問合せNo</td>
-                <td>0002</td>
-              </tr>
-              <tr>
-                <td>日付</td>
-                <td>2023/10/10</td>
-              </tr>
-              <tr>
-                <td>タイトル</td>
-                <td>商品の仕様についての質問</td>
-              </tr>
-              <tr>
-                <td>本文</td>
-                <td>コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ コンテンツコンテンツコンテンツコンテンツコンテンツ</td>
-              </tr>
-            </table>
+          <div class="c_table-wide p_request-details p_table-combi">
+            <div class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+              <div>問合せ詳細 (0002)</div>
+              <small class="arrow"></small>
+            </div>
+            <div class="p_table-combi__cont">
+              <table class="c_table-wide__inner">
+                <tr>
+                  <th class="c_hlight">項目</th>
+                  <th class="c_hlight">内容</th>
+                </tr>
+                <tr>
+                  <td>問合せNo</td>
+                  <td>0002</td>
+                </tr>
+                <tr>
+                  <td>日付</td>
+                  <td>2023/10/10</td>
+                </tr>
+                <tr>
+                  <td>タイトル</td>
+                  <td>商品の仕様についての質問</td>
+                </tr>
+                <tr>
+                  <td>本文</td>
+                  <td>コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ コンテンツコンテンツコンテンツコンテンツコンテンツ</td>
+                </tr>
+              </table>
+            </div>
           </div><!-- end of c_table-wide -->
 
-          <h4 class="p_request-details__ttl">回答内容</h4>
+          <h4 class="p_request-details__ttl pc-only">回答内容</h4>
 
-          <div class="c_table-wide p_request-details">
-            <table class="c_table-wide__inner">
-              <tr>
-                <td>日付</td>
-                <td>2023/10/12</td>
-              </tr>
-              <tr>
-                <td>本文</td>
-                <td>コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ コンテンツコンテンツコンテンツコンテンツコンテンツ</td>
-              </tr>
-              <tr>
-                <td>回答者</td>
-                <td>山田 太朗</td>
-              </tr>
-            </table><!-- end of inner -->
+          <div class="c_table-wide p_request-details p_table-combi">
+            <div class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+              <div>回答内容</div>
+              <small class="arrow"></small>
+            </div>
+            <div class="p_table-combi__cont">
+              <table class="c_table-wide__inner">
+                <tr>
+                  <td class="c_hlight">日付</td>
+                  <td class="c_hlight">2023/10/12</td>
+                </tr>
+                <tr>
+                  <td>本文</td>
+                  <td>コンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツコンテンツ コンテンツコンテンツコンテンツコンテンツコンテンツ</td>
+                </tr>
+                <tr>
+                  <td>回答者</td>
+                  <td>山田 太朗</td>
+                </tr>
+              </table><!-- end of inner -->
+            </div>
           </div>
 
           <div class="c_txt-right p_form-create__btns">

@@ -46,25 +46,37 @@
                 <th>詳細</th>
               </tr>
               <tr>
-                <td>0002</td>
-                <td>10/10</td>
-                <td><span class="c_txt-red">(未読)</span> 商品の仕様についての質問</td>
-                <td>株式会社ABC</td>
-                <td><a href="">詳細</a></td>
+                <td class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                  <div>0002</div>
+                  <small class="arrow"></small>
+                </td>
+                <td data-label="問合せ" class="c_hlight"><div>0002</div></td>
+                <td data-label="日付"><div>10/10</div></td>
+                <td data-label="問合せタイトル"><div><span class="c_txt-red">(未読)</span> 商品の仕様についての質問</div></td>
+                <td data-label="問合せ先"><div>株式会社ABC</div></td>
+                <td data-label="詳細"><div><a href="">詳細</a></div></td>
               </tr>
               <tr>
-                <td>0001</td>
-                <td>10/08</td>
-                <td>商品在庫の納期について</td>
-                <td>XYZ株式会社</td>
-                <td><a href="">詳細</a></td>
+                <td class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                  <div>0001</div>
+                  <small class="arrow"></small>
+                </td>
+                <td data-label="問合せ" class="c_hlight"><div>0001</div></td>
+                <td data-label="日付"><div>10/08</div></td>
+                <td data-label="問合せタイトル"><div>商品在庫の納期について</div></td>
+                <td data-label="問合せ先"><div>XYZ株式会社</div></td>
+                <td data-label="詳細"><div><a href="">詳細</a></div></td>
               </tr>
               <tr>
-                <td>0003</td>
-                <td>10/09</td>
-                <td>商品在庫の納期について</td>
-                <td>株式会社ABC</td>
-                <td><a href="">詳細</a></td>
+                <td class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                  <div>0003</div>
+                  <small class="arrow"></small>
+                </td>
+                <td data-label="問合せ" class="c_hlight"><div>0003</div></td>
+                <td data-label="日付"><div>10/09</div></td>
+                <td data-label="問合せタイトル"><div>商品在庫の納期について</div></td>
+                <td data-label="問合せ先"><div>株式会社ABC</div></td>
+                <td data-label="詳細"><div><a href="">詳細</a></div></td>
               </tr>
             </table><!-- end of inner -->
           </div><!-- end of c_table -->

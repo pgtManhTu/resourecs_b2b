@@ -37,45 +37,51 @@
           </form>
 
           <!-- start of c_table-wide -->
-          <div class="c_table-wide">
-            <table class="c_table-wide__inner p_table-wide__bbtm">
-              <tr>
-                <th>区分</th>
-                <th>商品名</th>
-              </tr>
-              <tr>
-                <td>パンチアウト先</td>
-                <td>
-                  <div class="c_select">
-                    <select id="" name="">
-                      <option value="">0.7</option>
-                      <option value="">0.6</option>
-                      <option value="">0.5</option>
-                    </select>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>掛け率</td>
-                <td><input type="text" id="" name="" value="70%"></td>
-              </tr>
-              <tr>
-                <td>利用状況</td>
-                <td>
-                  <div class="c_select">
-                    <select id="" name="">
-                      <option value="">利用中</option>
-                      <option value="">利用中</option>
-                      <option value="">利用中</option>
-                    </select>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td>遷移先URL</td>
-                <td><input type="url" id="" name="" value="https://azone.com/api/conectlist.php?id=123456"></td>
-              </tr>
-            </table>
+          <div class="c_table-wide p_table-combi">
+            <div class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+              <div>パンチアウト</div>
+              <small class="arrow"></small>
+            </div>
+            <div class="p_table-combi__cont">
+              <table class="c_table-wide__inner">
+                <tr>
+                  <th class="c_hlight">区分</th>
+                  <th class="c_hlight">商品名</th>
+                </tr>
+                <tr>
+                  <td>パンチアウト先</td>
+                  <td>
+                    <div class="c_select">
+                      <select id="" name="">
+                        <option value="">0.7</option>
+                        <option value="">0.6</option>
+                        <option value="">0.5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>掛け率</td>
+                  <td><input type="text" id="" name="" value="70%"></td>
+                </tr>
+                <tr>
+                  <td>利用状況</td>
+                  <td>
+                    <div class="c_select">
+                      <select id="" name="">
+                        <option value="">利用中</option>
+                        <option value="">利用中</option>
+                        <option value="">利用中</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>遷移先URL</td>
+                  <td><input type="url" id="" name="" value="https://azone.com/api/conectlist.php?id=123456"></td>
+                </tr>
+              </table>
+            </div>
           </div><!-- end of c_table-wide -->
 
 

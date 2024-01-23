@@ -52,64 +52,89 @@
                   <th>数量</th>
                 </tr>
                 <tr>
-                  <td><span class="c_status" data-user-status="1">発送済</span></td>
-                  <td>19/12/2023</td>
-                  <td>243254</td>
-                  <td>12/12/2023</td>
-                  <td>西田裕二</td>
-                  <td>関田正裕</td>
-                  <td>結晶皿 3140-100</td>
-                  <td>A5767</td>
-                  <td>武田</td>
-                  <td>1</td>
+                  <td data-label="注文管理番号:" class="sp-only c_table__ttl-sp open">
+                    <div>243254</div>
+						        <small class="arrow"></small>
+                  </td>
+                  <td data-label="顧客名" class="sp-only c_hlight"><div>西田裕二</div></td>
+                  <td data-label="ステータス"><div><span class="c_status" data-user-status="1">発送済</span></div></td>
+                  <td data-label="納入期限"><div>19/12/2023</div></td>
+                  <td data-label="注文管理番号" class="pc-only"><div>243254</div></td>
+                  <td data-label="注文依頼日"><div>12/12/2023</div></td>
+                  <td data-label="顧客名" class="pc-only"><div>西田裕二</div></td>
+                  <td data-label="顧客依頼者名"><div>関田正裕</div></td>
+                  <td data-label="商品名"><div>結晶皿 3140-100</div></td>
+                  <td data-label="型番"><div>A5767</div></td>
+                  <td data-label="メーカー名"><div>武田</div></td>
+                  <td data-label="数量"><div>1</div></td>
                 </tr>
                 <tr>
-                  <td><span class="c_status" data-user-status="3">承認待</span></td>
-                  <td>19/12/2023</td>
-                  <td>465657</td>
-                  <td>12/12/2023</td>
-                  <td>石川祐希</td>
-                  <td>高橋蘭</td>
-                  <td>卓上ハイスピン遠心機 D3024</td>
-                  <td>B6784</td>
-                  <td>ファイザー</td>
-                  <td>1</td>
+                  <td data-label="注文管理番号:" class="sp-only c_table__ttl-sp">
+                    <div>465657</div>
+						        <small class="arrow"></small>
+                  </td>
+                  <td data-label="顧客名" class="sp-only c_hlight"><div>石川祐希</div></td>
+                  <td data-label="ステータス"><div><span class="c_status" data-user-status="3">承認待</span></div></td>
+                  <td data-label="納入期限"><div>19/12/2023</div></td>
+                  <td data-label="注文管理番号" class="pc-only"><div>465657</div></td>
+                  <td data-label="注文依頼日"><div>12/12/2023</div></td>
+                  <td data-label="顧客名" class="pc-only"><div>石川祐希</div></td>
+                  <td data-label="顧客依頼者名"><div>高橋蘭</div></td>
+                  <td data-label="商品名"><div>卓上ハイスピン遠心機 D3024</div></td>
+                  <td data-label="型番"><div>B6784</div></td>
+                  <td data-label="メーカー名"><div>ファイザー</div></td>
+                  <td data-label="数量"><div>1</div></td>
                 </tr>
                 <tr>
-                  <td><span class="c_status" data-user-status="4">見積中</span></td>
-                  <td>19/12/2023</td>
-                  <td>446763</td>
-                  <td>12/12/2023</td>
-                  <td>高橋蘭</td>
-                  <td>石川祐希</td>
-                  <td>バランスディッシュ BD-1 千入</td>
-                  <td>C7954</td>
-                  <td>吉村製作所</td>
-                  <td>1</td>
+                  <td data-label="注文管理番号:" class="sp-only c_table__ttl-sp">
+                    <div>446763</div>
+						        <small class="arrow"></small>
+                  </td>
+                  <td data-label="顧客名" class="sp-only c_hlight"><div>高橋蘭</div></td>
+                  <td data-label="ステータス"><div><span class="c_status" data-user-status="4">見積中</span></div></td>
+                  <td data-label="納入期限"><div>19/12/2023</div></td>
+                  <td data-label="注文管理番号" class="pc-only"><div>446763</div></td>
+                  <td data-label="注文依頼日"><div>12/12/2023</div></td>
+                  <td data-label="顧客名" class="pc-only"><div>高橋蘭</div></td>
+                  <td data-label="顧客依頼者名"><div>石川祐希</div></td>
+                  <td data-label="商品名"><div>バランスディッシュ BD-1 千入</div></td>
+                  <td data-label="型番"><div>C7954</div></td>
+                  <td data-label="メーカー名"><div>吉村製作所</div></td>
+                  <td data-label="数量"><div>1</div></td>
                 </tr>
                 <tr>
-                  <td><span class="c_status" data-user-status="1">発送済</span></td>
-                  <td>16/12/2023</td>
-                  <td>768351</td>
-                  <td>12/12/2023</td>
-                  <td>関田正裕</td>
-                  <td>石川祐希</td>
-                  <td>バランスディッシュ BD-1 千入</td>
-                  <td>D8675</td>
-                  <td>吉村製作所</td>
-                  <td>1</td>
+                  <td data-label="注文管理番号:" class="sp-only c_table__ttl-sp">
+                    <div>768351</div>
+						        <small class="arrow"></small>
+                  </td>
+                  <td data-label="顧客名" class="sp-only c_hlight"><div>関田正裕</div></td>
+                  <td data-label="ステータス"><div><span class="c_status" data-user-status="1">発送済</span></div></td>
+                  <td data-label="納入期限"><div>16/12/2023</div></td>
+                  <td data-label="注文管理番号" class="pc-only"><div>768351</div></td>
+                  <td data-label="注文依頼日"><div>12/12/2023</div></td>
+                  <td data-label="顧客名" class="pc-only"><div>関田正裕</div></td>
+                  <td data-label="顧客依頼者名"><div>石川祐希</div></td>
+                  <td data-label="商品名"><div>バランスディッシュ BD-1 千入</div></td>
+                  <td data-label="型番"><div>D8675</div></td>
+                  <td data-label="メーカー名"><div>吉村製作所</div></td>
+                  <td data-label="数量"><div>1</div></td>
                 </tr>
                 <tr>
-                  <td><span class="c_status" data-user-status="3">承認待</span></td>
-                  <td>16/12/2023</td>
-                  <td>454769</td>
-                  <td>12/12/2023</td>
-                  <td>石川祐希</td>
-                  <td>高橋蘭</td>
-                  <td>ビーカー20m</td>
-                  <td>E6326</td>
-                  <td>武田</td>
-                  <td>1</td>
+                  <td data-label="注文管理番号:" class="sp-only c_table__ttl-sp">
+                    <div>454769</div>
+						        <small class="arrow"></small>
+                  </td>
+                  <td data-label="顧客名" class="sp-only c_hlight"><div>石川祐希</div></td>
+                  <td data-label="ステータス"><div><span class="c_status" data-user-status="3">承認待</span></div></td>
+                  <td data-label="納入期限"><div>16/12/2023</div></td>
+                  <td data-label="注文管理番号" class="pc-only"><div>454769</div></td>
+                  <td data-label="注文依頼日"><div>12/12/2023</div></td>
+                  <td data-label="顧客名" class="pc-only"><div>石川祐希</div></td>
+                  <td data-label="顧客依頼者名"><div>高橋蘭</div></td>
+                  <td data-label="商品名"><div>ビーカー20m</div></td>
+                  <td data-label="型番"><div>E6326</div></td>
+                  <td data-label="メーカー名"><div>武田</div></td>
+                  <td data-label="数量"><div>1</div></td>
                 </tr>
               </table><!-- end of inner -->
             </div><!-- end of c_table__scroll -->

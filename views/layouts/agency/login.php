@@ -16,12 +16,12 @@
 							<form class="p_login__form" action="/login" method="post" >
 								<div class="item c_icon-l">
 									<label for="username">メールアドレス</label>
-									<input class="error" type="email" id="email" name="email" placeholder="大阪大学" required>
+									<input class="error" type="email" id="email" name="email" placeholder="大阪大学" required><!-- if the class "error" is added, the error message will display automatically. If not, the error message will not display -->
 									<span class="error__message">*無効なユーザー名。もう一度試してください</span>
 								</div>
 								<div class="item c_icon-l">
 									<label for="password">パスワード</label>
-									<input type="password" id="password" name="password" placeholder="大阪大学" required>
+									<input type="password" id="password" name="password" placeholder="大阪大学" required><!-- if the class "error" is added, the error message will display automatically. If not, the error message will not display -->
 									<span class="error__message">*無効なユーザー名。もう一度試してください</span>
 								</div>
 								<div class="item p_login__quest">
@@ -35,7 +35,7 @@
 								<button type="submit" class="c_btn primary p_login__btn">ログイン</button>
 							</form>
 
-							<a class="p_login__cntlogin" href="">ログインできない場合はこちら</a>
+							<a class="p_login__cntlogin sp-only" href="">ログインできない場合はこちら</a>
 						</div>
 					</div>
 				</div>

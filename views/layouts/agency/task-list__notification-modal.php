@@ -42,36 +42,36 @@
                 <th class="c_txt-center">詳細</th>
               </tr>
               <tr class="row">
-                <td>見積依頼</td>
-                <td>マスク</td>
-                <td>AB-001</td>
-                <td>10/7</td>
-                <td><span class="c_status" data-user-status="2">未作成</span></td>
-                <td class="c_txt-center"><a href="">詳細</a></td>
+                  <td data-label="区分"><div>見積依頼</div></td>
+                  <td data-label="商品名"><div>マスク</div></td>
+                  <td data-label="型番"><div>AB-001</div></td>
+                  <td data-label="期日"><div>10/7</div></td>
+                  <td data-label="ステータス" class="c_txt-center"><div><span class="c_status" data-user-status="2">未作成</span></div></td>
+                  <td data-label="詳細" class="c_txt-center"><div><a href="">詳細</a></div></td>
               </tr>
               <tr class="row">
-                <td>注文</td>
-                <td>手袋</td>
-                <td>B-XYZ002</td>
-                <td>10/7</td>
-                <td><span class="c_status" data-user-status="4">手配中</span></td>
-                <td class="c_txt-center"><a href="">詳細</a></td>
+                  <td data-label="区分"><div>注文</div></td>
+                  <td data-label="商品名"><div>手袋</div></td>
+                  <td data-label="型番"><div>B-XYZ002</div></td>
+                  <td data-label="期日"><div>10/7</div></td>
+                  <td data-label="ステータス"><div><span class="c_status" data-user-status="4">手配中</span></div></td>
+                  <td data-label="詳細" class="c_txt-center"><div><a href="">詳細</a></div></td>
               </tr>
               <tr class="row">
-                <td>見積依頼</td>
-                <td>検査キット</td>
-                <td>B-A001</td>
-                <td>10/3</td>
-                <td><span class="c_status" data-user-status="3">承認待ち</span></td>
-                <td class="c_txt-center"><a href="">詳細</a></td>
+                  <td data-label="区分"><div>見積依頼</div></td>
+                  <td data-label="商品名"><div>検査キット</div></td>
+                  <td data-label="型番"><div>B-A001</div></td>
+                  <td data-label="期日"><div>10/3</div></td>
+                  <td data-label="ステータス"><div><span class="c_status" data-user-status="3">承認待ち</span></div></td>
+                  <td data-label="詳細" class="c_txt-center"><div><a href="">詳細</a></div></td>
               </tr>
               <tr class="row">
-                <td>注文</td>
-                <td>試験紙</td>
-                <td>X-001</td>
-                <td><span class="fire">9/30</span></td>
-                <td><span class="c_status" data-user-status="1">発送待ち</span></td>
-                <td class="c_txt-center"><a href="">詳細</a></td>
+                  <td data-label="区分"><div>注文</div></td>
+                  <td data-label="商品名"><div>試験紙</div></td>
+                  <td data-label="型番"><div>X-001</div></td>
+                  <td data-label="期日"><div><span class="fire">9/30</span></div></td>
+                  <td data-label="ステータス"><div><span class="c_status" data-user-status="1">発送待ち</span></div></td>
+                  <td data-label="詳細" class="c_txt-center"><div><a href="">詳細</a></div></td>
               </tr>
             </table><!-- end of inner -->
           </div><!-- end of c_table -->
@@ -79,7 +79,6 @@
           <div class="p_sales-news">
             <h4 class="p_sales-news__ttl">売上速報</h4>
             <div class="p_sales-news__box">
-
 
             </div>
           </div>
@@ -89,8 +88,9 @@
             <div class="p_notif p_notif-modal">
               <div class="p_notif__hdng">
                 <div>
+                  <button class="c_btn-icon arrow-left sp-only p_notif__backbtn"></button>
                   <h4 class="c_notif-ttl">通知<small class="c_notif-side">2</small></h4>
-                  <button class="c_btn-icon reorder p_notif__reorder"></button>
+                  <button class="c_btn-icon reorder p_notif__reorder pc-only"></button>
                 </div>
                 <div>
                   <button class="c_btn-icon filter p_notif__filter"></button>

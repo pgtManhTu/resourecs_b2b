@@ -39,29 +39,44 @@
                 <th>詳細</th>
               </tr>
               <tr>
-                <td>AZONE</td>
-                <td>利用中</td>
-                <td><a href="">詳細</a></td>
+                <td class="c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                  <div>AZONE</div>
+                  <small class="arrow"></small>
+                </td>
+                <td data-label="利用状況"><div>利用中</div></td>
+                <td data-label="詳細"><div><a href="">詳細</a></div></td>
               </tr>
               <tr>
-                <td>BZONE</td>
-                <td>停止中</td>
-                <td><a href="">詳細</a></td>
+                <td class="c_table__ttl-sp open">
+                  <div>BZONE</div>
+                  <small class="arrow"></small>
+                </td>
+                <td data-label="利用状況"><div>停止中</div></td>
+                <td data-label="詳細"><div><a href="">詳細</a></div></td>
               </tr>
               <tr>
-                <td>CZONE</td>
-                <td>利用中</td>
-                <td><a href="">詳細</a></td>
+                <td class="c_table__ttl-sp open">
+                  <div>CZONE</div>
+                  <small class="arrow"></small>
+                </td>
+                <td data-label="利用状況"><div>利用中</div></td>
+                <td data-label="詳細"><div><a href="">詳細</a></div></td>
               </tr>
               <tr>
-                <td>DZONE</td>
-                <td>停止中</td>
-                <td><a href="">詳細</a></td>
+                <td class="c_table__ttl-sp open">
+                  <div>DZONE</div>
+                  <small class="arrow"></small>
+                </td>
+                <td data-label="利用状況"><div>停止中</div></td>
+                <td data-label="詳細"><div><a href="">詳細</a></div></td>
               </tr>
               <tr>
-                <td>EZONE</td>
-                <td>利用中</td>
-                <td><a href="">詳細</a></td>
+                <td class="c_table__ttl-sp open">
+                  <div>EZONE</div>
+                  <small class="arrow"></small>
+                </td>
+                <td data-label="利用状況"><div>利用中</div></td>
+                <td data-label="詳細"><div><a href="">詳細</a></div></td>
               </tr>
             </table><!-- end of inner -->
           </div><!-- end of c_table -->

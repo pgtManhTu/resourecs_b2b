@@ -31,50 +31,67 @@
             <button type="submit" class="p_search-box__btn c_btn c_btn-active primary w-icon search">検索</button>
           </form>
 
-          <div class="c_table-list p_table-tasklist">
+          <div class="c_table-list p_table-tasklist p_table-sp-group">
             <table class="c_table-list__inner">
-              <tr class="row title">
-                <th>区分</th>
-                <th>商品名</th>
-                <th>型番</th>
-                <th>期日</th>
-                <th class="c_txt-center">ステータス</th>
-                <th class="c_txt-center">詳細</th>
-              </tr>
-              <tr class="row">
-                <td>見積依頼</td>
-                <td>マスク</td>
-                <td>AB-001</td>
-                <td>10/7</td>
-                <td><span class="c_status" data-user-status="2">未作成</span></td>
-                <td class="c_txt-center"><a href="">詳細</a></td>
-              </tr>
-              <tr class="row">
-                <td>注文</td>
-                <td>手袋</td>
-                <td>B-XYZ002</td>
-                <td>10/7</td>
-                <td><span class="c_status" data-user-status="4">手配中</span></td>
-                <td class="c_txt-center"><a href="">詳細</a></td>
-              </tr>
-              <tr class="row">
-                <td>見積依頼</td>
-                <td>検査キット</td>
-                <td>B-A001</td>
-                <td>10/3</td>
-                <td><span class="c_status" data-user-status="3">承認待ち</span></td>
-                <td class="c_txt-center"><a href="">詳細</a></td>
-              </tr>
-              <tr class="row">
-                <td>注文</td>
-                <td>試験紙</td>
-                <td>X-001</td>
-                <td><span class="fire">9/30</span></td>
-                <td><span class="c_status" data-user-status="1">発送待ち</span></td>
-                <td class="c_txt-center"><a href="">詳細</a></td>
-              </tr>
+              <thead>
+                <tr>
+                    <th>区分</th>
+                    <th>商品名</th>
+                    <th>型番</th>
+                    <th>期日</th>
+                    <th class="c_txt-center">ステータス</th>
+                    <th class="c_txt-center">詳細</th>
+                </tr>
+              </thead>
+              <tbody style="order: 1;" class="w-sp-ttl open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                <tr>
+                    <td class="c_table__ttl-sp">
+                      <div>見積依頼</div>
+                      <small class="arrow"></small>
+                    </td>
+                    <td data-label="商品名" class="c_hlight"><div>マスク</div></td>
+                    <td data-label="型番"><div>AB-001</div></td>
+                    <td data-label="期日"><div>10/7</div></td>
+                    <td data-label="ステータス" class="c_txt-center"><div><span class="c_status" data-user-status="2">未作成</span></div></td>
+                    <td data-label="詳細" class="c_txt-center"><div><a href="">詳細</a></div></td>
+                </tr>
+              </tbody>
+              <tbody style="order: 3;" class="w-sp-ttl open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                <tr>
+                    <td class="c_table__ttl-sp">
+                      <div>注文</div>
+                      <small class="arrow"></small>
+                    </td>
+                    <td data-label="商品名" class="c_hlight"><div>手袋</div></td>
+                    <td data-label="型番"><div>B-XYZ002</div></td>
+                    <td data-label="期日"><div>10/7</div></td>
+                    <td data-label="ステータス"><div><span class="c_status" data-user-status="4">手配中</span></div></td>
+                    <td data-label="詳細" class="c_txt-center"><div><a href="">詳細</a></div></td>
+                </tr>
+              </tbody>
+              <tbody style="order: 2;" class="sub-1">
+                <tr>
+                    <td class="c_table__ttl-sp"><div>見積依頼</div></td>
+                    <td data-label="商品名" class="c_hlight"><div>検査キット</div></td>
+                    <td data-label="型番"><div>B-A001</div></td>
+                    <td data-label="期日"><div>10/3</div></td>
+                    <td data-label="ステータス"><div><span class="c_status" data-user-status="3">承認待ち</span></div></td>
+                    <td data-label="詳細" class="c_txt-center"><div><a href="">詳細</a></div></td>
+                </tr>
+              </tbody>
+              <tbody style="order: 4;" class="sub-3">
+                <tr>
+                    <td class="c_table__ttl-sp"><div>注文</div></td>
+                    <td data-label="商品名" class="c_hlight"><div>試験紙</div></td>
+                    <td data-label="型番"><div>X-001</div></td>
+                    <td data-label="期日"><div><span class="fire">9/30</span></div></td>
+                    <td data-label="ステータス"><div><span class="c_status" data-user-status="1">発送待ち</span></div></td>
+                    <td data-label="詳細" class="c_txt-center"><div><a href="">詳細</a></div></td>
+                </tr>
+              </tbody>
             </table><!-- end of inner -->
           </div><!-- end of c_table -->
+          
 
           <div class="p_sales-news">
             <h4 class="p_sales-news__ttl">売上速報</h4>

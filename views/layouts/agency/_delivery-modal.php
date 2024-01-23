@@ -1,7 +1,7 @@
 <div class="p_modal show">
-  <div class="c_table-list p_modal-table">
+  <div class="p_modal-table">
     <button class="c_btn-icon close-circ"></button>
-    <table class="c_table-list__inner p_modal-table__inner">
+    <table class="p_modal-table__inner">
       <tr>
         <th>日付</th>
         <th>納品書</th>
@@ -18,7 +18,7 @@
         <td></td>
       </tr>
       <tr>
-        <td>10/11</td>
+        <td>10/3</td>
         <td><a href="">プレビュー・ダウンロード</a></td>
         <td></td>
       </tr>

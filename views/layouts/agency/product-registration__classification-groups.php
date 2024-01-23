@@ -9,7 +9,6 @@
       <?php include('elements/sidebar-agency.php'); ?>
 
       <main class="l_main">
-        <?php include('elements/header-acess.php'); ?>
         <?php include('elements/header.php'); ?>
 
         <div class="p_main-content">
@@ -34,92 +33,125 @@
             <button type="submit" class="p_search-box__btn c_btn c_btn-active primary w-icon search">検索</button>
           </form>
 
-          <div class="c_table-wide p_table-prodreg">
-            <table class="c_table-wide__inner">
+          <div class="p_table-prodreg">
+            <table class="p_table-prodreg__inner">
               <tbody>
                 <tr>
                   <th>項目</th>
                   <th>内容</th>
                 </tr>
                 <tr>
-                  <td>商品名 <span class="txt-error">*</span></td>
-                  <td>
-                    <input type="text" id="" name="" value="オールオーバーラメドゥーサスモールハンドバッグ">
+                  <td data-label="項目">
+                    <div>商品名 <span class="txt-error">*</span></div>
+                  </td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="" value="オールオーバーラメドゥーサスモールハンドバッグ">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>商品説明 <span class="txt-error">*</span></td>
-                  <td>
-                    <textarea name="text" id="">ジャカード織りであしらったヴェルサーチェ オールオーバー柄で再解釈したラ メドゥーサ ハンドバッグ。ラ メドゥーサ プレートをあしらった、メゾンを代表するスタイル。交換可能なレザー & チェーンのショルダーストラップ付き。</textarea>
+                  <td data-label="項目">
+                    <div>商品説明 <span class="txt-error">*</span></div>
+                  </td>
+                  <td data-label="内容">
+                    <div>
+                      <textarea name="text" id="">ジャカード織りであしらったヴェルサーチェ オールオーバー柄で再解釈したラ メドゥーサ ハンドバッグ。ラ メドゥーサ プレートをあしらった、メゾンを代表するスタイル。交換可能なレザー & チェーンのショルダーストラップ付き。</textarea>
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>商品画像 <span class="txt-error">*</span></td>
-                  <td>
-                    <ul>
-                      <li>
-                        <figure><img src="/resources/assets/img/products/new-prod-img.png" alt="">
-                          <ul class="icons">
-                            <li><button class="c_btn-icon edit-photo"></button></li>
-                            <li><button class="c_btn-icon delete"></button></li>
+                  <td data-label="項目">
+                    <div>商品画像 <span class="txt-error">*</span></div>
+                  </td>
+                  <td data-label="内容">
+                    <div>
+                      <ul>
+                        <li>
+                          <figure><img src="/resources/assets/img/products/new-prod-img.png" alt="">
+                            <ul class="icons">
+                              <li><button class="c_btn-icon edit-photo"></button></li>
+                              <li><button class="c_btn-icon delete"></button></li>
+                            </ul>
+                          </figure>
+                        </li>
+                        <li>
+                          <button class="image">もっと画像 <span>(1/9)</span></button>
+                        </li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td data-label="項目">
+                    <div>製品ビデオ</div>
+                  </td>
+                  <td data-label="内容">
+                    <div>
+                      <ul>
+                        <li class="play-icon">
+                          <figure><img src="/resources/assets/img/products/new-prod-video.png" alt="">
+                            <ul class="icons">
+                              <li><button class="c_btn-icon delete"></button></li>
+                            </ul>
+                          </figure>
+                        </li>
+                        <li>
+                          <button class="video">動画を追加 する</button>
+                        </li>
+                        <li>
+                          <ul class="video-desc">
+                            <li>サイズ: 最大 30Mb、解像度は 1280x1280px を超えない</li>
+                            <li>長さ: 10 代～60 代</li>
+                            <li>フォーマット: MP4 (vp9 はサポートされていません)</li>
                           </ul>
-                        </figure>
-                      </li>
-                      <li>
-                        <button class="image">もっと画像 <span>(1/9)</span></button>
-                      </li>
-                    </ul>
+                        </li>
+                      </ul>
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>製品ビデオ</td>
-                  <td>
-                    <ul>
-                      <li class="play-icon">
-                        <figure><img src="/resources/assets/img/products/new-prod-video.png" alt="">
-                          <ul class="icons">
-                            <li><button class="c_btn-icon delete"></button></li>
-                          </ul>
-                        </figure>
-                      </li>
-                      <li>
-                        <button class="video">動画を追加 する</button>
-                      </li>
-                      <li>
-                        <ul class="video-desc">
-                          <li>サイズ: 最大 30Mb、解像度は 1280x1280px を超えない</li>
-                          <li>長さ: 10 代～60 代</li>
-                          <li>フォーマット: MP4 (vp9 はサポートされていません)</li>
-                        </ul>
-                      </li>
-                    </ul>
+                  <td data-label="項目">
+                    <div>メーカー名 <span class="txt-error">*</span></div>
+                  </td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="" value="吉村製作所">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>メーカー名 <span class="txt-error">*</span></td>
-                  <td>
-                    <input type="text" id="" name="" value="吉村製作所">
+                  <td data-label="項目">
+                    <div>型式 <span class="txt-error">*</span></div>
+                  </td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="" value="B-XYZ002">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>型式 <span class="txt-error">*</span></td>
-                  <td>
-                    <input type="text" id="" name="" value="B-XYZ002">
+                  <td data-label="項目">
+                    <div>単位 <span class="txt-error">*</span></div>
+                  </td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="" value="1個/箱">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>単位 <span class="txt-error">*</span></td>
-                  <td>
-                    <input type="text" id="" name="" value="1個/箱">
+                  <td data-label="項目">
+                    <div>
+                      商品画像
+                    </div>
                   </td>
-                </tr>
-                <tr>
-                  <td>商品画像</td>
-                  <td>
+                  <td data-label="内容">
                     <div class="prod-box">
                       <div class="cont groups">
                         <ul class="top">
                           <li>
+                            <button class="c_btn-icon close-btn"><img src="/resources/assets/img/icons/close.svg" alt=""></button>
                             <ul>
                               <li>
                                 <span>分類グルー1</span>
@@ -127,7 +159,7 @@
                                   <input type="text" placeholder="例: 色、.." maxlength="30">
                                 </div>
                               </li>
-                              <li>
+                              <li class="p_table-prodreg__spicons">
                                 <span>商品の分類</span>
                                 <div class="input-cont">
                                   <input type="text" placeholder="サイズ：M、L..." maxlength="30">
@@ -142,6 +174,7 @@
                         </ul>
                         <ul class="top">
                           <li>
+                            <button class="c_btn-icon close-btn"><img src="/resources/assets/img/icons/close.svg" alt=""></button>
                             <ul>
                               <li>
                                 <span>分類グルー2</span>
@@ -149,12 +182,15 @@
                                   <input type="text" placeholder="例: 色、.." maxlength="30">
                                 </div>
                               </li>
-                              <li>
+                              <li class="p_table-prodreg__spicons">
                                 <span>商品の分類</span>
                                 <div class="input-cont">
+                                  <input type="text" placeholder="サイズ：M、L..." maxlength="30">
+                                </div>
+                                <div class="pc-only input-cont">
                                   <input type="text" value="White" maxlength="30">
                                 </div>
-                                <div class="input-cont">
+                                <div class="pc-only input-cont">
                                   <input type="text" value="Black" maxlength="30">
                                 </div>
                                 <div class="buttons">
@@ -169,37 +205,69 @@
                     </div>
                   </td>
                 </tr>
-                <tr>
-                  <td>商品分類一覧</td>
+                <tr class="p_table-prodreg-ttl p_table-combi">
                   <td>
+                    <div class="pc-only">商品分類一覧</div>
+                  </td>
+                  <td class="sp-only c_table__ttl-sp open">
+                    <!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                    <div>中山 二郎</div> <small class="arrow"></small>
+                  </td>
+                  <td class="p_table-combi__cont">
                     <div class="prod-class">
-                      <div class="cont">
+                      <div class="cont classification">
                         <div class="input-cont">
                           <div>
                             <input class="input-text1" type="text" placeholder="価格">
                             <input class="input-text2" type="text" placeholder="SKU の分類">
                           </div>
-                          <button class="c_btn c_btn-active primary">すべて適用する</button>
+                          <button class="p_table-prodreg__applybtn c_btn c_btn-active primary">すべて適用する</button>
                         </div>
                         <div class="c_table-list p_table-class p_table-class--groups">
                           <table class="c_table-list__inner">
                             <tbody>
                               <tr>
-                                <th>分類グルー1</th>
-                                <th>価格 <sup class="c_txt-red">*</sup></th>
+                                <th>サイズ</th>
+                                <th>分類グルー2</th>
+                                <th>価格 <sup class="sp-only c_txt-red">*</sup></th>
                                 <th>SKU の分類</th>
                                 <th>かかくせってい</th>
                               </tr>
                               <tr>
-                                <td rowspan="2" class="c_txt-center">M <button class="image"></button></td>
-                                <td><span class="border">0</span></td>
-                                <td><span class="border">SKU の分類</span></td>
-                                <td><button class="c_btn c_btn-active primary">かかくせってい</button></td>
+                                <td data-label="サイズ" rowspan="2" class="c_txt-center">
+                                  <div>M <button class="image"></button></div>
+                                </td>
+                                <td class="color" data-label="分類グルー2">
+                                  <div>White</div>
+                                </td>
+                                <td data-label="価格">
+                                  <span class="sp-only txt-error">*</span>
+                                  <div><span class="border">0</span></div>
+                                </td>
+                                <td data-label="SKU の分類">
+                                  <div><span class="border">SKU の分類</span></div>
+                                </td>
+                                <td data-label="かかくせってい">
+                                  <div><button class="c_btn c_btn-active primary">かかくせってい</button></div>
+                                </td>
                               </tr>
                               <tr>
-                                <td><span class="border">0</span></td>
-                                <td><span class="border">SKU の分類</span></td>
-                                <td><button class="c_btn c_btn-active primary">かかくせってい</button></td>
+                                <td data-label="分類グルー1" rowspan="2" class="sp-only c_txt-center">
+                                  <div>M <button class="image"></button></div>
+                                </td>
+                                <td class="color" data-label="分類グルー2">
+                                  <div>Black</div>
+                                </td>
+                                <td data-label="価格">
+                                  <span class="sp-only txt-error">*</span>
+                                  <div><span class="border">0</span></div>
+                                </td>
+                                <td data-label="SKU の分類">
+                                  <div><span class="border">SKU の分類</span></div>
+                                </td>
+                                <td data-label="かかくせってい">
+                                  <div><button class="c_btn c_btn-active primary">かかくせってい</button></div>
+                                </td>
                               </tr>
                             </tbody>
                           </table><!-- end of inner -->
@@ -211,7 +279,7 @@
                 <tr>
                   <td>納期</td>
                   <td>
-                    <input type="text" id="" name="" value="7～10日">
+                    <div><input type="text" id="" name="" value="7～10日"></div>
                   </td>
                 </tr>
                 <tr>
@@ -232,7 +300,7 @@
                 <tr>
                   <td>特記事項</td>
                   <td>
-                    <textarea name="text" id="">平日の配達</textarea>
+                    <div><textarea name="text" id="">平日の配達</textarea></div>
                   </td>
                 </tr>
               </tbody>
@@ -241,7 +309,7 @@
 
           <div class="c_txt-right p_form-create__btns">
             <button class="c_btn secondary">公開する</button>
-            <button class="c_btn primary">商品プレビュー</button>
+            <button class="c_btn secondary">商品プレビュー</button>
             <button class="c_btn primary">登録する</button>
           </div>
 

@@ -1,6 +1,7 @@
 <div class="p_chat">
+  <button class="c_btn-icon arrow-left sp-only p_chat__backbtn"></button>
   <h3 class="p_chat__ttl">XYZ株式会社</h3>
-  <button class="c_btn-icon close-circ"></button>
+  <button class="c_btn-icon close-circ pc-only"></button>
 
   <div class="p_chat__tabs">
     <ul>

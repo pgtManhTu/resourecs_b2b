@@ -54,11 +54,18 @@
               </div>
               <button type="submit" class="p_search-box__btn c_btn c_btn-active primary w-icon search">検索</button>
             </form>
-            <button class="c_btn c_btn-active primary">引用を拒否する</button>
+            <button class="pc-only c_btn c_btn-active primary">引用を拒否する</button>
           </div>
 
           <form class="p_form-create">
-            <div class="c_table-list secondary p_table-create">
+            <div class="c_table-list secondary p_table-create p_table-combi">
+              <div class="sp-only c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                <div>見積詳細 (0002)</div>
+                <small class="arrow"></small>
+              </div>
+              
+              <div class="p_table-combi__cont">
+
                 <table class="c_table-list__inner">
                   <tr>
                     <th>商品名</th>
@@ -70,79 +77,75 @@
                     <th>注記</th>
                   </tr>
                   <tr>
-                    <td><span>マスク</span></td>
-                    <td><span>AB-001</span></td>
-                    <td><input type="text" value="2,500"></td>
-                    <td><span>1</span></td>
-                    <td><input type="text" value="箱"></td>
-                    <td><span>2,500円</span></td>
-                    <td><button class="c_btn-icon note"></button></td>
+                    <td data-label="商品名" class="c_hlight"><div>マスク</div></td>
+                    <td data-label="型番"><div>AB-001</div></td>
+                    <td data-label="単価"><div><input type="text" value="2,500"></div></td>
+                    <td data-label="数量"><div>1</div></td>
+                    <td data-label="単位"><div><input type="text" value="箱"></div></td>
+                    <td data-label="金額"><div>2,500円</div></td>
+                    <td data-label="注記"><div><button class="c_btn-icon note"></button></div></td>
                   </tr>
                   <tr>
-                    <td><span>手袋</span></td>
-                    <td><span>B-XYZ002</span></td>
-                    <td><input type="text" value="1,500"></td>
-                    <td><span>2</span></td>
-                    <td><input type="text" value="ケース"></td>
-                    <td><span>1,500円</span></td>
-                    <td><button class="c_btn-icon note"></button></td>
+                    <td data-label="商品名" class="c_hlight"><div>手袋</div></td>
+                    <td data-label="型番"><div>B-XYZ002</div></td>
+                    <td data-label="単価"><div><input type="text" value="1,500"></div></td>
+                    <td data-label="数量"><div>2</div></td>
+                    <td data-label="単位"><div><input type="text" value="ケース"></div></td>
+                    <td data-label="金額"><div>1,500円</div></td>
+                    <td data-label="注記"><div><button class="c_btn-icon note"></button></div></td>
                   </tr>
                   <tr>
-                    <td><input type="text" value="配送料"></td>
-                    <td></td>
-                    <td><input type="text" value="1,000"></td>
-                    <td><input type="text" value="1"></td>
-                    <td><input type="text" value="回"></td>
-                    <td><span>1,000円</span></td>
-                    <td><button class="c_btn-icon note"></button></td>
+                    <td data-label="商品名" class="c_hlight"><div><input type="text" value="配送料"></div></td>
+                    <td data-label="型番"><div></div></td>
+                    <td data-label="単価"><div><input type="text" value="1,000"></div></td>
+                    <td data-label="数量"><div><input type="text" value="1"></div></td>
+                    <td data-label="単位"><div><input type="text" value="回"></div></td>
+                    <td data-label="金額"><div>1,000円</div></td>
+                    <td data-label="注記"><div><button class="c_btn-icon note"></button></div></td>
                   </tr>
                   <tr>
-                    <td><input type="text" value="値引"></td>
-                    <td></td>
-                    <td><input class="c_txt-red" type="text" value="1,000"></td>
-                    <td><input type="text" value="1"></td>
-                    <td><input type="text" value="回"></td>
-                    <td><span class="c_txt-red">1,000円</span></td>
-                    <td><button class="c_btn-icon note"></button></td>
+                    <td data-label="商品名" class="c_hlight"><div><input type="text" value="値引"></div></td>
+                    <td data-label="型番"><div></div></td>
+                    <td data-label="単価"><div class="c_txt-red"><input type="text" value="1,000"></div></td>
+                    <td data-label="数量"><div><input type="text" value="1"></div></td>
+                    <td data-label="単位"><div><input type="text" value="回"></div></td>
+                    <td data-label="金額"><div><span class="c_txt-red">1,000円</div></td>
+                    <td data-label="注記"><div><button class="c_btn-icon note"></button></div></td>
                   </tr>
-                  <tr>
-                    <td><div class="p_table-create__add"><button class="c_btn-icon add"></button><input type="text" value=""></div></td>
-                    <td><input type="text" value=""></td>
-                    <td><input type="text" value=""></td>
-                    <td><input type="text" value=""></td>
-                    <td><input type="text" value=""></td>
-                    <td><input type="text" value=""></td>
-                    <td><button class="c_btn-icon note"></button></td>
-                  </tr>
-                  <tr>
-                    <td><span>小計（税抜)</span></td>
-                    <td><span></span></td>
-                    <td><span></span></td>
-                    <td><span></span></td>
-                    <td><span>4,000円</span></td>
-                    <td><span>大阪大学</span></td>
-                    <td><span></span></td>
-                  </tr>
-                  <tr>
-                    <td><span>消費税（10%)</span></td>
-                    <td><span></span></td>
-                    <td><span></span></td>
-                    <td><span></span></td>
-                    <td><span>4,00円</span></td>
-                    <td><span>大阪大学</span></td>
-                    <td><span></span></td>
-                  </tr>
-                  <tr>
-                    <td><span>合計（税込)</span></td>
-                    <td><span></span></td>
-                    <td><span></span></td>
-                    <td><span></span></td>
-                    <td><span>4,000円</span></td>
-                    <td><span>大阪大学</span></td>
-                    <td><span></span></td>
+                  <tr class="pc-only">
+                    <td>
+                      <div class="p_table-create__add"><button class="c_btn-icon add"></button><input type="text" value=""></div>
+                    </td>
+                    <td data-label="型番"><div></div></td>
+                    <td data-label="単価"><div><input type="text" value=""></div></td>
+                    <td data-label="数量"><div><input type="text" value=""></div></td>
+                    <td data-label="単位"><div><input type="text" value=""></div></td>
+                    <td data-label="金額"><div><input type="text" value=""></div></td>
+                    <td data-label="注記"><div><button class="c_btn-icon note"></button></div></td>
                   </tr>
                 </table><!-- end of inner -->
-            </div><!-- end of c_table -->
+
+                <div class="p_table-create__add sp-only"><button class="c_btn-icon add"></button><input type="text" value=""></div>
+
+                <table class="p_table-tax">
+                  <tr>
+                    <td class="label">小計（税抜) </td>
+                    <td class="amount"><small>4,000円</small> <small>大阪大学</small></td>
+                  </tr>
+                  <tr>
+                    <td class="label">消費税（10%) </td>
+                    <td class="amount"><small>4,000円</small> <small>大阪大学</small></td>
+                  </tr>
+                  <tr>
+                    <td class="label">合計（税込) </td>
+                    <td class="amount"><small>4,000円</small> <small>大阪大学</small></td>
+                  </tr>
+                </table>
+              </div>
+              
+            </div><!-- end of p_table-create -->
+
+            <button class="sp-only c_btn c_btn-active primary p_form-create__btn-quote">引用を拒否する</button>
 
             <div class="p_form-create__comment">
               <span class="label">コメント：顧客側からのコメントを表示</span>

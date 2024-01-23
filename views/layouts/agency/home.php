@@ -13,7 +13,7 @@
 
         <div class="p_home">
           <div class="p_home__cont">
-            <div class="p_home__notif show"><!-- remove/add class "show" here to hide/show the notification section -->
+            <div class="p_home__notif"><!-- remove/add class "show" here to hide/show the notification section -->
               <div class="p_notif">
                 <div class="p_notif__hdng">
                   <div>

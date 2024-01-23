@@ -22,7 +22,7 @@
                 <li class="current">商品管理</li>
               </ul>
             </div>
-            <div class="right">
+            <div class="right pc-only">
               <button class="c_btn c_btn-active primary">新規商品登録</button>
             </div>
           </div>
@@ -43,6 +43,26 @@
               </ul>
 
             </div>
+          </div>
+
+          <div class="sp-only">
+            <form class="p_search-box p_search-box__agcprod">
+              <div class="p_search-box__text">
+                <input type="text" id="" name="" placeholder="タイトル">
+              </div>
+              <div class="item c_mr-10">
+                <button type="submit" class="p_search-box__prod c_btn c_btn-active primary w-icon search">検索</button>
+              </div>
+              <div class="item p_sp-select">
+                <div class="c_select">
+                  <select id="" name="" form="">
+                    <option value="">最も人気のある</option>
+                    <option value="">最も人気のある</option>
+                    <option value="">最も人気のある</option>
+                  </select>
+                </div>
+              </div>
+            </form>
           </div>
 
           <div class="p_product-list">
@@ -164,26 +184,98 @@
                   </div>
                 </div>
               </div>
+              <div class="item sp-only">
+                <div class="star">
+                  <input type="checkbox" id="star6" class="c_star-checkbox star-s">
+                  <label class="c_btn-icon star-s" for="star6"></label>
+                </div>
+                <a href="#">
+                  <figure><img src="/resources/assets/img/products/product6-sp.png" alt=""></figure>
+                </a>
+                <div class="item-cont">
+                  <a href="#">
+                    <p class="item-desc">ミニ イジィデ キアロスクーロ</p>
+                  </a>
+                  <div class="item-cont__btm">
+                    <div class="item-price">
+                      <s class="reg-price">1600円</s>
+                      1280円
+                    </div>
+                    <button class="c_btn-icon cart"></button>
+                    <p>明成ショップ楽天市場店</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item sp-only">
+                <div class="star">
+                  <input type="checkbox" id="star7" class="c_star-checkbox star-s">
+                  <label class="c_btn-icon star-s" for="star7"></label>
+                </div>
+                <a href="#">
+                  <figure><img src="/resources/assets/img/products/product7-sp.png" alt=""></figure>
+                </a>
+                <div class="item-cont">
+                  <a href="#">
+                    <p class="item-desc">ミニ イジィデ キアロスクーロ</p>
+                  </a>
+                  <div class="item-cont__btm">
+                    <div class="item-price">
+                      <s class="reg-price">1600円</s>
+                      1280円
+                    </div>
+                    <button class="c_btn-icon cart"></button>
+                    <p>明成ショップ楽天市場店</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item sp-only">
+                <div class="star">
+                  <input type="checkbox" id="star8" class="c_star-checkbox star-s">
+                  <label class="c_btn-icon star-s" for="star8"></label>
+                </div>
+                <a href="#">
+                  <figure><img src="/resources/assets/img/products/product8-sp.png" alt=""></figure>
+                </a>
+                <div class="item-cont">
+                  <a href="#">
+                    <p class="item-desc">ミニ イジィデ キアロスクーロ</p>
+                  </a>
+                  <div class="item-cont__btm">
+                    <div class="item-price">
+                      <s class="reg-price">1600円</s>
+                      1280円
+                    </div>
+                    <button class="c_btn-icon cart"></button>
+                    <p>明成ショップ楽天市場店</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <form class="p_search-box p_search-box__agcprod">
-            <div class="p_search-box__text">
-              <input type="text" id="" name="" placeholder="タイトル">
-            </div>
-            <div class="item c_mr-10">
-              <button type="submit" class="p_search-box__prod c_btn c_btn-active primary w-icon search">キーワード検索</button>
-            </div>
-            <div class="item">
-              <div class="c_select">
-                <select id="" name="" form="">
-                  <option value="">最も人気のある</option>
-                  <option value="">最も人気のある</option>
-                  <option value="">最も人気のある</option>
-                </select>
+          <div class="p_new-prodbtn__card sp-only">
+            <button class="c_btn c_btn-active primary">新規商品登録</button>
+          </div>
+
+          <div class="pc-only">
+            <form class="p_search-box p_search-box__agcprod">
+              <div class="p_search-box__text">
+                <input type="text" id="" name="" placeholder="タイトル">
               </div>
-            </div>
-          </form>
+              <div class="item c_mr-10">
+                <button type="submit" class="p_search-box__prod c_btn c_btn-active primary w-icon search">キーワード検索</button>
+              </div>
+              <div class="item">
+                <div class="c_select">
+                  <select id="" name="" form="">
+                    <option value="">最も人気のある</option>
+                    <option value="">最も人気のある</option>
+                    <option value="">最も人気のある</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
 
 
         </div><!-- End of p_main-content -->

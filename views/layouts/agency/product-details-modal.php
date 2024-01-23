@@ -42,86 +42,102 @@
                   <th>内容</th>
                 </tr>
                 <tr>
-                  <td>商品名 <span class="txt-error">*</span></td>
-                  <td>
-                    <input type="text" id="" name="" value="オールオーバーラメドゥーサスモールハンドバッグ">
+                  <td data-label="項目"><div>商品名 <span class="txt-error">*</span></div></td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="" value="オールオーバーラメドゥーサスモールハンドバッグ">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>商品説明 <span class="txt-error">*</span></td>
-                  <td>
-                    <textarea name="text" id="">ジャカード織りであしらったヴェルサーチェ オールオーバー柄で再解釈したラ メドゥーサ ハンドバッグ。ラ メドゥーサ プレートをあしらった、メゾンを代表するスタイル。交換可能なレザー & チェーンのショルダーストラップ付き。</textarea>
+                  <td data-label="項目"><div>商品説明 <span class="txt-error">*</span></div></td>
+                  <td data-label="内容">
+                    <div>
+                      <textarea name="text" id="">ジャカード織りであしらったヴェルサーチェ オールオーバー柄で再解釈したラ メドゥーサ ハンドバッグ。ラ メドゥーサ プレートをあしらった、メゾンを代表するスタイル。交換可能なレザー & チェーンのショルダーストラップ付き。</textarea>
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>商品画像 <span class="txt-error">*</span></td>
-                  <td>
-                    <ul>
-                      <li>
-                        <figure><img src="/resources/assets/img/products/new-prod-img.png" alt="">
-                          <ul class="icons">
-                            <li><button class="c_btn-icon edit-photo"></button></li>
-                            <li><button class="c_btn-icon delete"></button></li>
+                  <td data-label="項目"><div>商品画像 <span class="txt-error">*</span></div></td>
+                  <td data-label="内容">
+                    <div>
+                      <ul>
+                        <li>
+                          <figure><img src="/resources/assets/img/products/new-prod-img.png" alt="">
+                            <ul class="icons">
+                              <li><button class="c_btn-icon edit-photo"></button></li>
+                              <li><button class="c_btn-icon delete"></button></li>
+                            </ul>
+                          </figure>
+                        </li>
+                        <li>
+                          <button class="image">もっと画像 <span>(1/9)</span></button>
+                        </li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td data-label="項目"><div>製品ビデオ</div></td>
+                  <td data-label="内容">
+                    <div>
+                      <ul>
+                        <li class="play-icon">
+                          <figure><img src="/resources/assets/img/products/new-prod-video.png" alt="">
+                            <ul class="icons">
+                              <li><button class="c_btn-icon delete"></button></li>
+                            </ul>
+                          </figure>
+                        </li>
+                        <li>
+                          <button class="video">動画を追加 する</button>
+                        </li>
+                        <li>
+                          <ul class="video-desc">
+                            <li>サイズ: 最大 30Mb、解像度は 1280x1280px を超えない</li>
+                            <li>長さ: 10 代～60 代</li>
+                            <li>フォーマット: MP4 (vp9 はサポートされていません)</li>
                           </ul>
-                        </figure>
-                      </li>
-                      <li>
-                        <button class="image">もっと画像 <span>(1/9)</span></button>
-                      </li>
-                    </ul>
+                        </li>
+                      </ul>
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>製品ビデオ</td>
-                  <td>
-                    <ul>
-                      <li class="play-icon">
-                        <figure><img src="/resources/assets/img/products/new-prod-video.png" alt="">
-                          <ul class="icons">
-                            <li><button class="c_btn-icon delete"></button></li>
-                          </ul>
-                        </figure>
-                      </li>
-                      <li>
-                        <button class="video">動画を追加 する</button>
-                      </li>
-                      <li>
-                        <ul class="video-desc">
-                          <li>サイズ: 最大 30Mb、解像度は 1280x1280px を超えない</li>
-                          <li>長さ: 10 代～60 代</li>
-                          <li>フォーマット: MP4 (vp9 はサポートされていません)</li>
-                        </ul>
-                      </li>
-                    </ul>
+                  <td data-label="項目"><div>メーカー名 <span class="txt-error">*</span></div></td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="" value="吉村製作所">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>メーカー名 <span class="txt-error">*</span></td>
-                  <td>
-                    <input type="text" id="" name="" value="吉村製作所">
+                  <td data-label="項目"><div>型式 <span class="txt-error">*</span></div></td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="" value="B-XYZ002">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>型式 <span class="txt-error">*</span></td>
-                  <td>
-                    <input type="text" id="" name="" value="B-XYZ002">
+                  <td data-label="項目"><div>単位 <span class="txt-error">*</span></div></td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="" value="1個/箱">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>単位 <span class="txt-error">*</span></td>
-                  <td>
-                    <input type="text" id="" name="" value="1個/箱">
+                  <td data-label="項目"><div>商品画像 <span class="txt-error">*</span></div></td>
+                  <td data-label="内容">
+                    <div>
+                      <button class="c_btn c_btn-active primary w-icon add">分類を追加する</button>
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>商品画像 <span class="txt-error">*</span></td>
-                  <td>
-                    <button class="c_btn c_btn-active primary w-icon add">分類を追加する</button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>価格 <span class="txt-error">*</span></td>
-                  <td>
+                  <td data-label="項目"><div>価格 <span class="txt-error">*</span></div></td>
+                  <td data-label="内容">
                     <div class="item input-label">
                       <input type="text" id="" name="" value="980">
                       <button class="c_btn c_btn-active primary">かかくせってい</button>
@@ -129,20 +145,24 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>SKU</td>
-                  <td>
-                    <input type="text" id="" name="">
+                  <td data-label="項目"><div>SKU</div></td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>納期</td>
-                  <td>
-                    <input type="text" id="" name="" value="7～10日">
+                  <td data-label="項目"><div>納期</div></td>
+                  <td data-label="内容">
+                    <div>
+                      <input type="text" id="" name="" value="7～10日">
+                    </div>
                   </td>
                 </tr>
                 <tr>
-                  <td>関連商品</td>
-                  <td>
+                  <td data-label="項目"><div>関連商品</div></td>
+                  <td data-label="内容">
                     <div class="rel-prod">
                       <div class="tag-cont">
                         <span class="prod-tag">トーさージューグ<button class="c_btn-icon close"></button></span>
@@ -156,9 +176,11 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>特記事項</td>
-                  <td>
-                    <textarea name="text" id="">平日の配達</textarea>
+                  <td data-label="項目"><div>特記事項</div></td>
+                  <td data-label="内容">
+                    <div>
+                      <textarea name="text" id="">平日の配達</textarea>
+                    </div>
                   </td>
                 </tr>
               </tbody>

@@ -26,11 +26,11 @@
           </div>
 
           <!-- start of c_table-wide -->
-          <div class="c_table-wide p_request-details">
+          <div class="c_table-wide sp-w p_request-details">
             <table class="c_table-wide__inner">
               <tr>
-                <th>項目</th>
-                <th>内容</th>
+                <th class="c_hlight">項目</th>
+                <th class="c_hlight">内容</th>
               </tr>
               <tr>
                 <td>問合せNo</td>
@@ -64,7 +64,6 @@
 
         <!-- Product Edit Complete Modal -->
         <?php include('_contact-answer-creation-complete-modal.php'); ?>
-
 
       </main>
     </div>

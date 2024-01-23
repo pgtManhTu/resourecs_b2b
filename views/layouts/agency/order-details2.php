@@ -44,31 +44,42 @@
                 <th class="c_txt-center">詳細</th>
               </tr>
               <tr>
-                <td>検査キット（B-A001）</td>
-                <td>株式会社ABC</td>
-                <td>1</td>
-                <td>5,000</td>
-                <td>5,000</td>
-                <td><button class="c_btn c_btn-active primary">チャット</button></td>
+                <td data-label="商品名" class="c_table__ttl-sp open"><!-- on mobile, just add/remove the class "open" to show/hide the content  -->
+                  <div>検査キット（B-A001）</div>
+						      <small class="arrow"></small>
+                </td>
+                <td data-label="発注先" class="c_hlight"><div>株式会社ABC</div></td>
+                <td data-label="数量"><div>1</div></td>
+                <td data-label="単価"><div>5,000</div></td>
+                <td data-label="金額"><div>5,000</div></td>
+                <td data-label="詳細"><div><button class="c_btn c_btn-active primary">チャット</button></div></td>
               </tr>
               <tr>
-                <td>試験紙 (X-001)</td>
-                <td>カンパニー987</td>
-                <td>1</td>
-                <td>1,400</td>
-                <td>1,400</td>
-                <td><button class="c_btn c_btn-active primary">チャット</button></td>
+                <td data-label="商品名" class="c_table__ttl-sp open">
+                  <div>試験紙 (X-001)</div>
+						      <small class="arrow"></small>
+                </td>
+                <td data-label="発注先" class="c_hlight"><div>カンパニー987</div></td>
+                <td data-label="数量"><div>1</div></td>
+                <td data-label="単価"><div>1,400</div></td>
+                <td data-label="金額"><div>1,400</div></td>
+                <td data-label="詳細"><div><button class="c_btn c_btn-active primary">チャット</button></div></td>
               </tr>
-              <tr>
-                <td>合計</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>6,400</td>
-                <td></td>
+              <tr class="pc-only">
+                <td><div>合計</div></td>
+                <td><div></div></td>
+                <td><div></div></td>
+                <td><div></div></td>
+                <td><div>6,400</div></td>
+                <td><div></div></td>
               </tr>
             </table><!-- end of inner -->
           </div><!-- end of c_table -->
+
+          <div class="p_table-order__total sp-only">
+            <span class="label">合計</span>
+            <span class="amount">6,400</span>
+          </div>
 
           <div class="p_order-note">
             <h4 class="p_sales-news__ttl">注記</h4>
@@ -80,10 +91,7 @@
             <button class="c_btn primary">更新する</button>
           </div>
 
-        </div>
-
-
-    </div><!-- End of p_main-content -->
+        </div><!-- End of p_main-content -->
 
     </main>
   </div>
